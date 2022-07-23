@@ -10,12 +10,10 @@
 .navbar-nav{
     position: fixed;
     right: 0;
+    top: 2%;
 }
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  background-color: white;
 }
 .nav-item{
     font-family: 'Ubuntu';
@@ -76,4 +74,15 @@
     border-radius: 50px;
     color: black;
     padding-left: 5%;
+}
+.search-text{
+    position: absolute;
+    width: 100%;
+    top: 94.5%;
+    left: -27%;
+    text-align: center;
+    z-index: 1;
+    font-size: 115%;
+    color: rgb(124, 122, 122);
+    font-weight: 500;
 }
