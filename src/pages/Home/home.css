@@ -1,0 +1,79 @@
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    background-color:rgb(232, 227, 227);
+    height: 4rem;
+    padding-top: 2%;
+    position: sticky;
+    z-index: 1;
+}
+.navbar-nav{
+    position: fixed;
+    right: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.nav-item{
+    font-family: 'Ubuntu';
+    font-size: .9rem;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    padding-top: 0%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home-body{
+    background-color: rgb(255, 255, 255);
+    background-image: url('../../../public/background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    margin: 3%;
+    border-radius: 20px;
+    padding: .5%;
+}
+.logo-image{
+    width:10%;
+    position: fixed;
+    left: 4%;
+    top: 0%
+}
+
+.banner-image{
+    width: 130%;
+    position: relative;
+    top: -15%;
+    right: 18%;
+}
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    left: 12%;
+    top: 38%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Bree Serif';
+    width: 30%;
+    text-align: left;
+    
+}
+
+
+.search-box{
+    width: 48%;
+    height: 10%;
+    position: absolute;
+    left: 16%;
+    top: 92%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow:0px 0px 10px 2px rgb(193, 193, 193);
+    border-radius: 50px;
+    color: black;
+    padding-left: 5%;
+}

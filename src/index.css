@@ -5,5 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(232, 227, 227);
+  color: black;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Nunito+Sans:wght@100;400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Concert+One&family=Fredoka+One&family=Ubuntu:wght@500&family=Varela+Round&display=swap');
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+*/
