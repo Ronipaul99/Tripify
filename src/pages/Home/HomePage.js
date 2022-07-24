@@ -13,9 +13,12 @@ export default function HomePage() {
   const stickNavbar = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
-      windowHeight > 45 ? setStickyClass('fixed top-0 left-0 z-50 sticky') : setStickyClass('relative');
+      console.log(windowHeight);
+      windowHeight > 1000 ? setStickyClass('fixed top-0 left-0 z-50 hidden') : setStickyClass('relative');
+      windowHeight > 45 ? windowHeight > 600 ? setStickyClass('fixed top-0 left-0 z-50 hidden') : setStickyClass('fixed top-0 left-0 z-50 sticky') : setStickyClass('relative');
       // windowHeight > 25 ? document.getElementById('navbar').classList.add('sticky')
       // :document.getElementById('navbar').classList.remove('sticky');
+      
     }
   };
   useEffect(() => {

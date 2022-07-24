@@ -1,7 +1,7 @@
 .footer{
     background-color: rgb(3, 18, 33);
     color: white;
-    height: 450px;
+    height: 560px;
     padding: 3%;
     text-align: left;
     padding-left: 5.5%;
@@ -32,9 +32,54 @@
     text-align: center;
 }
 
+.subscribe:hover{
+    background-color: rgb(227, 227, 227);
+    color: rgb(83, 83, 83);
+}
 .divider{
     width: 96%;
     margin-top: 5%;
     background-color: rgb(141, 139, 139);
     height: .2px;
+}
+
+.footer-colums-aera{
+    margin-top: 5%;
+}
+.footer-column-header{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.footer-column-item{
+    color: rgb(185, 176, 176) !important;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.brand-name{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: 'Varela Round';
+    margin-bottom: 2%;
+}
+
+.social-media-icon{
+    color: white !important;
+}
+
+.social-media-icon:hover{
+    color: rgb(81, 81, 212) !important;
+}
+.brand-name-secondary{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.brand-name-primary{
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: 'Patua One';
 }
