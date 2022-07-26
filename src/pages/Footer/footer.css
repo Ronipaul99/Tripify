@@ -1,7 +1,7 @@
 .footer{
     background-color: rgb(3, 18, 33);
     color: white;
-    height: 560px;
+    height: fit-content;
     padding: 3%;
     text-align: left;
     padding-left: 5.5%;

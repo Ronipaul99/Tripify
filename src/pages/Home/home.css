@@ -8,8 +8,8 @@
     z-index: 1;
 }
 .navbar-nav{
-    position: fixed;
-    right: 0;
+    position: relative;
+    right: -68%;
     top: 2%;
 }
 .sticky {
@@ -39,58 +39,84 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    height: 60%;
+    height: fit-content;
     margin: 3%;
     border-radius: 20px;
     padding: .5%;
 }
 .logo-image{
     width:10%;
-    position: fixed;
+    height: fit-content;
+    position: absolute;
     left: 4%;
     top: 0%
 }
 
 .banner-image{
-    width: 130%;
+    width: 62%;
     position: relative;
     top: -15%;
-    right: 18%;
+    right: 8%;
 }
 .banner-text{
-    position: absolute;
-    z-index: 1;
-    left: 12%;
-    top: 38%;
+    position: relative;
+    left: 19%;
+    top: 22%;
     font-size: 2.5rem;
     font-weight: 700;
     font-family: 'Bree Serif';
-    width: 30%;
+    width: 90%;
+    height: fit-content;
     text-align: left;
     
 }
 
-
-.search-box{
-    width: 48%;
-    height: 10%;
-    position: absolute;
-    left: 16%;
-    top: 92%;
+.banner-item{
+    max-height: fit-content;
+}
+.sticky-search-box{
+    width: 30%;
+    height: 40px ;
+    position: fixed;
+    z-index: 1;
+    left: 17%;
+    top: 2%;
     border: 2px solid rgb(255, 255, 255);
     box-shadow:0px 0px 10px 2px rgb(193, 193, 193);
     border-radius: 50px;
     color: black;
     padding-left: 5%;
+    overflow-y: auto;
+}
+.search-box{
+    width: 48%;
+    height: 50px ;
+    position: relative;
+    left: -11%;
+    top: 0%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow:0px 0px 10px 2px rgb(193, 193, 193);
+    border-radius: 50px;
+    color: black;
+    padding-left: 5%;
+    overflow-y: auto;
 }
 .search-text{
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 94.5%;
+    top: 0;
     left: -27%;
     text-align: center;
     z-index: 1;
     font-size: 115%;
     color: rgb(124, 122, 122);
     font-weight: 500;
+}
+
+
+
+@media only screen and (min-width: 1280px ) {
+    /* For desktop: */
+
+   
 }
